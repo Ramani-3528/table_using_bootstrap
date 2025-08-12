@@ -1,0 +1,19 @@
+*{
+    /* border: 0.1rem solid crimson; */
+}
+:root{
+    --primaryColor: #0f4f72;
+    --ffprimary: "DM Serif Text";
+    --ffsecondary: "Inter";
+}
+h1{
+    font-family: var(--ffprimary);
+    color: var(--primaryColor);
+}
+/* .table thead {
+    background-color: var(--primaryColor) !important;
+    color: #fff;
+} */
+.table{
+    font-family: var(--ffsecondary);
+}
