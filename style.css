@@ -3,6 +3,8 @@
 }
 :root{
     --primaryColor: #0f4f72;
+    --secondaryColor: #fff;
+    --tertiararyColor: #387fa5;
     --ffprimary: "DM Serif Text";
     --ffsecondary: "Inter";
 }
@@ -10,10 +12,13 @@ h1{
     font-family: var(--ffprimary);
     color: var(--primaryColor);
 }
-/* .table thead {
+.table-primary th {
     background-color: var(--primaryColor) !important;
-    color: #fff;
-} */
+    color: var(--secondaryColor) !important;
+}
 .table{
     font-family: var(--ffsecondary);
+}
+.table td{
+    color: var(--tertiararyColor);
 }
